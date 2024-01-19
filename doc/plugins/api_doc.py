@@ -9,7 +9,7 @@ from docutils.parsers.rst import Directive
 from pygments import highlight
 from docutils.nodes import raw
 
-from lona.imports import acquire
+from schmona.imports import acquire
 
 DOC_STRING_ARGUMENT_RE = re.compile(r':[^\s]+:')
 

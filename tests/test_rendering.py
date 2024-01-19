@@ -36,8 +36,8 @@ async def test_rendering(rendering_setup, lona_project_context):
 
     from playwright.async_api import async_playwright
 
-    from lona.compat import get_client_version
-    from lona.html import Widget, HTML
+    from schmona.compat import get_client_version
+    from schmona.html import Widget, HTML
 
     TEST_PROJECT_PATH = os.path.join(__file__, '../../test_project')
 

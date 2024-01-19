@@ -1,5 +1,5 @@
-from lona.html import Button, HTML, H2, Br, A
-from lona.view import View
+from schmona.html import Button, HTML, H2, Br, A
+from schmona.view import View
 
 
 class RedirectView(View):

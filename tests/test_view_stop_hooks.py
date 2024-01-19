@@ -1,7 +1,7 @@
-from lona.exceptions import UserAbort
-from lona.pytest import eventually
-from lona.html import Button
-from lona import View
+from schmona.exceptions import UserAbort
+from schmona.pytest import eventually
+from schmona.html import Button
+from schmona import View
 
 
 def setup_app(app):

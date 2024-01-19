@@ -2,9 +2,9 @@ import os.path
 
 from playwright.async_api import async_playwright
 
-from lona.static_files import StyleSheet, Script
-from lona.html import Div
-from lona import View
+from schmona.static_files import StyleSheet, Script
+from schmona.html import Div
+from schmona import View
 
 
 def setup_app(app):

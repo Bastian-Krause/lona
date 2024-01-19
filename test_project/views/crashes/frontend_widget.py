@@ -1,6 +1,6 @@
-from lona.static_files import Script
-from lona.html import Widget, HTML
-from lona.view import View
+from schmona.static_files import Script
+from schmona.html import Widget, HTML
+from schmona.view import View
 
 
 class CrashingFrontendWidget(Widget):

@@ -1,8 +1,8 @@
 from lona_picocss.html import HTML, Div, H1
 from lona_picocss import install_picocss
 
-from lona.static_files import StyleSheet
-from lona import View, App
+from schmona.static_files import StyleSheet
+from schmona import View, App
 
 app = App(__file__)
 

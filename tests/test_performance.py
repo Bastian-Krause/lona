@@ -1,9 +1,9 @@
-from lona.html import Tr, Td
+from schmona.html import Tr, Td
 
 
 def test_number_of_serialize_calls(mocker):
 
-    from lona.html import Node
+    from schmona.html import Node
 
     spy = mocker.spy(Node, '_serialize')
 

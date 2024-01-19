@@ -1,6 +1,6 @@
 from lona_picocss import install_picocss
 
-from lona import App
+from schmona import App
 
 app = App(__file__)
 

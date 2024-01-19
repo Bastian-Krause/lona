@@ -25,7 +25,7 @@ from lona_picocss.html import (
 )
 from lona_picocss import install_picocss
 
-from lona import RedirectResponse, Channel, View, App
+from schmona import RedirectResponse, Channel, View, App
 
 NAME = re.compile(r'^([a-zA-Z0-9-_]{1,})$')
 MESSAGE_BACK_LOG = 10

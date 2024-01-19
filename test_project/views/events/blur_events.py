@@ -1,6 +1,6 @@
-from lona.html import TextInput, HTML, Div, H2, Br
-from lona.events import BLUR
-from lona.view import View
+from schmona.html import TextInput, HTML, Div, H2, Br
+from schmona.events import BLUR
+from schmona.view import View
 
 
 class BlurEventsView(View):

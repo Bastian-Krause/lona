@@ -1,7 +1,7 @@
 from lona_picocss import install_picocss
 
-from lona import ForbiddenError, View, App
-from lona.html import HTML, H1, P
+from schmona import ForbiddenError, View, App
+from schmona.html import HTML, H1, P
 
 app = App(__file__)
 

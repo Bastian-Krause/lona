@@ -1,8 +1,8 @@
 from pprint import pformat
 
-from lona.html import Button, HTML, Pre, Div, H2, A
-from lona.static_files import Script
-from lona.view import View
+from schmona.html import Button, HTML, Pre, Div, H2, A
+from schmona.static_files import Script
+from schmona.view import View
 
 
 class CustomEventNode(Div):

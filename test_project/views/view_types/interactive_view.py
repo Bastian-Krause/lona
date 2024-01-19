@@ -1,5 +1,5 @@
-from lona.html import Strong, Select, HTML, Div, H2, Br
-from lona.view import View
+from schmona.html import Strong, Select, HTML, Div, H2, Br
+from schmona.view import View
 
 
 class InteractiveView(View):

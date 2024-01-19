@@ -1,6 +1,6 @@
-from lona.static_files import Script
-from lona.html import HTML, Div
-from lona.view import LonaView
+from schmona.static_files import Script
+from schmona.html import HTML, Div
+from schmona.view import LonaView
 
 
 class CrashingWidgetNode(Div):

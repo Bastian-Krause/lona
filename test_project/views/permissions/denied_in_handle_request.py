@@ -1,5 +1,5 @@
-from lona.errors import ForbiddenError
-from lona.view import View
+from schmona.errors import ForbiddenError
+from schmona.view import View
 
 
 class DenyAccess(View):

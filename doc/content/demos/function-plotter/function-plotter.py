@@ -11,7 +11,7 @@ from lona_picocss.html import (
 )
 from lona_picocss import install_picocss
 
-from lona import View, App
+from schmona import View, App
 
 from lona_chartjs.html import Chart
 

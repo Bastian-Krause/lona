@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from lona.html import NumberInput, Button, Table, HTML, Tr, Th, Td, H2
-from lona import View
+from schmona.html import NumberInput, Button, Table, HTML, Tr, Th, Td, H2
+from schmona import View
 
 
 class SleepTestView(View):

@@ -11,8 +11,8 @@ from lona_picocss.html import (
 )
 from lona_picocss import install_picocss
 
-from lona.static_files import Script
-from lona import View, App
+from schmona.static_files import Script
+from schmona import View, App
 
 app = App(__file__)
 

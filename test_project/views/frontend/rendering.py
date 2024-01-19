@@ -1,4 +1,4 @@
-from lona.html import (
+from schmona.html import (
     CheckBox,
     RawHTML,
     Widget,
@@ -12,11 +12,11 @@ from lona.html import (
     H3,
     H2,
 )
-from lona.html.widgets import HTML as LegacyHTML
-from lona.compat import get_client_version
-from lona.static_files import Script
-from lona._json import dumps
-from lona import View
+from schmona.html.widgets import HTML as LegacyHTML
+from schmona.compat import get_client_version
+from schmona.static_files import Script
+from schmona._json import dumps
+from schmona import View
 
 
 def client_version(*client_versions):

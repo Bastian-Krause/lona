@@ -16,8 +16,8 @@ from lona_picocss.html import (
 from lona_picocss import install_picocss
 import make_qr
 
-from lona.html import Select2, Option2
-from lona import View, App
+from schmona.html import Select2, Option2
+from schmona import View, App
 
 app = App(__file__)
 

@@ -1,5 +1,5 @@
-from lona.html import TextInput, Button, Label, HTML, Div, H2, A
-from lona import HttpRedirectResponse, RedirectResponse, View
+from schmona.html import TextInput, Button, Label, HTML, Div, H2, A
+from schmona import HttpRedirectResponse, RedirectResponse, View
 
 
 class RedirectsView(View):

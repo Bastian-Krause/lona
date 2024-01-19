@@ -2,7 +2,7 @@ import re
 
 import pytest
 
-from lona.html import (
+from schmona.html import (
     NumberInput,
     TextInput,
     TextArea,
@@ -20,7 +20,7 @@ from lona.html import (
     Div,
     H1,
 )
-from lona.compat import set_use_future_node_classes
+from schmona.compat import set_use_future_node_classes
 
 
 @pytest.mark.incremental()

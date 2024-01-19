@@ -1,7 +1,7 @@
 from pprint import pformat
 
-from lona.html import TextInput, Submit, Button, HTML, Form, Pre, Div, H2, Br
-from lona.view import View
+from schmona.html import TextInput, Submit, Button, HTML, Form, Pre, Div, H2, Br
+from schmona.view import View
 
 
 class FormView(View):

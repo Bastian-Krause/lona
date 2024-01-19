@@ -1,4 +1,4 @@
-from lona.routing import Route
+from schmona.routing import Route
 
 routes = [
     # view types

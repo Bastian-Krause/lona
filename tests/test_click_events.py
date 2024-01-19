@@ -7,8 +7,8 @@ async def test_click_events(lona_app_context):
     }
 
     def setup_app(app):
-        from lona.html import CLICK, HTML, Div
-        from lona import View
+        from schmona.html import CLICK, HTML, Div
+        from schmona import View
 
         class OuterDiv(Div):
             EVENTS = [CLICK]

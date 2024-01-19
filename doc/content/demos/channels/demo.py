@@ -5,7 +5,7 @@ import time
 from lona_picocss.html import Strong, Span, HTML, H1, Br
 from lona_picocss import install_picocss
 
-from lona import Channel, View, App
+from schmona import Channel, View, App
 
 app = App(__file__)
 

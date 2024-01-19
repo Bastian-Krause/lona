@@ -1,6 +1,6 @@
 import pytest
 
-from lona.routing import Router, Route
+from schmona.routing import Router, Route
 
 
 @pytest.mark.incremental()

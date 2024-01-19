@@ -1,5 +1,5 @@
-from lona.html import Strong, THead, TBody, Table, HTML, Tr, Th, Td, H1
-from lona import LonaView, LonaApp
+from schmona.html import Strong, THead, TBody, Table, HTML, Tr, Th, Td, H1
+from schmona import LonaView, LonaApp
 
 from lona_bootstrap_5 import (
     SecondaryButton,

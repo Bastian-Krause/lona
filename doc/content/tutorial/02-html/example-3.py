@@ -2,8 +2,8 @@ from datetime import datetime
 
 from lona_picocss import install_picocss
 
-from lona.html import Strong, Span, HTML, Div, H2, H1, P
-from lona import View, App
+from schmona.html import Strong, Span, HTML, Div, H2, H1, P
+from schmona import View, App
 
 app = App(__file__)
 

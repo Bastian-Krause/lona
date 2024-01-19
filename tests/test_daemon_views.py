@@ -6,13 +6,13 @@ async def test_simple_daemon_view(lona_app_context):
 
     from playwright.async_api import async_playwright
 
-    from lona.pytest import eventually
+    from schmona.pytest import eventually
 
     def setup_app(app):
         from datetime import datetime
 
-        from lona.html import Button, HTML, Div
-        from lona import View
+        from schmona.html import Button, HTML, Div
+        from schmona import View
 
         # TODO: remove in 2.0
         @app.route('/async/')
@@ -105,11 +105,11 @@ async def test_multi_tab_daemon_view(lona_app_context):
 
     from playwright.async_api import async_playwright
 
-    from lona.pytest import eventually
+    from schmona.pytest import eventually
 
     def setup_app(app):
-        from lona.html import TextInput, HTML
-        from lona import View
+        from schmona.html import TextInput, HTML
+        from schmona import View
 
         @app.route('/')
         class DaemonView(View):

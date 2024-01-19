@@ -1,6 +1,6 @@
-from lona.html import TextInput, HTML, Div, H2, Br
-from lona.events import FOCUS
-from lona.view import View
+from schmona.html import TextInput, HTML, Div, H2, Br
+from schmona.events import FOCUS
+from schmona.view import View
 
 
 class FocusEventsView(View):

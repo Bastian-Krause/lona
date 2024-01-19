@@ -1,5 +1,5 @@
-from lona.html import HTML, Div, H2, A
-from lona.view import View
+from schmona.html import HTML, Div, H2, A
+from schmona.view import View
 
 
 class WindowTitleView(View):

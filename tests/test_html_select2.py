@@ -1,9 +1,9 @@
 from playwright.async_api import async_playwright
 import pytest
 
-from lona.html import Select2, Option2
-from lona.pytest import eventually
-from lona import View
+from schmona.html import Select2, Option2
+from schmona.pytest import eventually
+from schmona import View
 
 GET_OPTIONS = 'e => Array.from(e.selectedOptions).map(option => option.value)'
 

@@ -1,8 +1,8 @@
 from datetime import datetime
 
-from lona.html import HTML, H2
-from lona._json import dumps
-from lona.view import View
+from schmona.html import HTML, H2
+from schmona._json import dumps
+from schmona.view import View
 
 
 class CustomMessagesView(View):

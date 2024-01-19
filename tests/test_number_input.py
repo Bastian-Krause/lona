@@ -1,8 +1,8 @@
 from playwright.async_api import async_playwright
 
-from lona.html import NumberInput, Select, HTML
-from lona.pytest import eventually
-from lona import View
+from schmona.html import NumberInput, Select, HTML
+from schmona.pytest import eventually
+from schmona import View
 
 
 async def test_number_inputs(lona_app_context):

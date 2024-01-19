@@ -1,7 +1,7 @@
 from lona_picocss.html import InlineButton, TextInput, HTML, H1, P
 from lona_picocss import install_picocss
 
-from lona import RedirectResponse, View, App
+from schmona import RedirectResponse, View, App
 
 app = App(__file__)
 

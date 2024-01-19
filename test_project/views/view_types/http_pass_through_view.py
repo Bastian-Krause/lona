@@ -1,6 +1,6 @@
 from aiohttp.web import Response
 
-from lona.view import View
+from schmona.view import View
 
 
 class HTTPPassThroughView(View):

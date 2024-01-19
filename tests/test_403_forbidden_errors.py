@@ -1,4 +1,4 @@
-from lona import ForbiddenError, View
+from schmona import ForbiddenError, View
 
 
 def setup_app(app):

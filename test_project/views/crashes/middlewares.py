@@ -1,4 +1,4 @@
-from lona.view import View
+from schmona.view import View
 
 
 class UnreachableView(View):

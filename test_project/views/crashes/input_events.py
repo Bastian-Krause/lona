@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from lona.html import Button, HTML, Div, H2, Br
-from lona.view import View
+from schmona.html import Button, HTML, Div, H2, Br
+from schmona.view import View
 
 
 class CrashingNode(Div):

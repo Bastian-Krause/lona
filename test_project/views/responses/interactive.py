@@ -1,6 +1,6 @@
 import os
 
-from lona import (
+from schmona import (
     TemplateStringResponse,
     HttpRedirectResponse,
     TemplateResponse,
@@ -11,7 +11,7 @@ from lona import (
     Response,
     View,
 )
-from lona.html import CLICK, HTML, Ul, Li, H2, P, A
+from schmona.html import CLICK, HTML, Ul, Li, H2, P, A
 
 
 class InteractiveView(View):

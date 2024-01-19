@@ -1,6 +1,6 @@
 def setup_app(app):
-    from lona.html import TextInput, HTML, BLUR
-    from lona import View
+    from schmona.html import TextInput, HTML, BLUR
+    from schmona import View
 
     @app.route('/')
     class MyView(View):

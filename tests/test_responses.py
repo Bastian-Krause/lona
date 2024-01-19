@@ -36,7 +36,7 @@ async def test_interactive_responses(
 
     from playwright.async_api import async_playwright, expect
 
-    from lona.pytest import eventually
+    from schmona.pytest import eventually
 
     context = await lona_project_context(
         project_root=os.path.join(__file__, '../../test_project'),

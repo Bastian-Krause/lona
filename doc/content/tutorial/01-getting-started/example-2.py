@@ -1,7 +1,7 @@
 from lona_picocss import install_picocss
 
-from lona.html import HTML, H1, P
-from lona import View, App
+from schmona.html import HTML, H1, P
+from schmona import View, App
 
 app = App(__file__)
 

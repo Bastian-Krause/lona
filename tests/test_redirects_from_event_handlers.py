@@ -1,7 +1,7 @@
 import pytest
 
-from lona import RedirectResponse, View
-from lona.html import Button
+from schmona import RedirectResponse, View
+from schmona.html import Button
 
 
 def get_setup_app_callback(response_format):

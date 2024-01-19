@@ -14,7 +14,7 @@ from pygments.token import Token
 from pygments import highlight
 from docutils.nodes import raw
 
-from lona.imports import acquire
+from schmona.imports import acquire
 
 
 def code_block(context):

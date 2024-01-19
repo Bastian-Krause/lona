@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from lona.html import TextInput, TextArea, Button, HTML, Pre, H2, Br
-from lona import Channel, View
+from schmona.html import TextInput, TextArea, Button, HTML, Pre, H2, Br
+from schmona import Channel, View
 
 MESSAGE_BACKLOG = 30
 

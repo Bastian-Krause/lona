@@ -18,7 +18,7 @@ def do_nothing(*args, **kwargs):
 async def test_subscribe_and_unsubscribe(lona_app_context):
     import pytest
 
-    from lona import Channel
+    from schmona import Channel
 
     await lona_app_context(do_nothing)
 
@@ -58,8 +58,8 @@ async def test_subscribe_and_unsubscribe(lona_app_context):
 async def test_message_expiry(lona_app_context):
     from datetime import timedelta, datetime
 
-    from lona.pytest import eventually
-    from lona import Channel
+    from schmona.pytest import eventually
+    from schmona import Channel
 
     await lona_app_context(do_nothing)
 
@@ -90,8 +90,8 @@ async def test_message_expiry(lona_app_context):
 
 
 async def test_message_integrity(lona_app_context):
-    from lona.pytest import eventually
-    from lona import Channel
+    from schmona.pytest import eventually
+    from schmona import Channel
 
     await lona_app_context(do_nothing)
 
@@ -124,8 +124,8 @@ async def test_message_integrity(lona_app_context):
 
 
 async def test_topic_matching(lona_app_context):
-    from lona.pytest import eventually
-    from lona import Channel
+    from schmona.pytest import eventually
+    from schmona import Channel
 
     await lona_app_context(do_nothing)
 
@@ -246,8 +246,8 @@ async def test_topic_matching(lona_app_context):
 
 
 async def test_internal_topics(lona_app_context):
-    from lona.pytest import eventually
-    from lona import Channel
+    from schmona.pytest import eventually
+    from schmona import Channel
 
     await lona_app_context(do_nothing)
 
@@ -292,8 +292,8 @@ async def test_internal_topics(lona_app_context):
 async def test_view_api(lona_app_context):
     from playwright.async_api import async_playwright
 
-    from lona.pytest import eventually
-    from lona import Channel, View
+    from schmona.pytest import eventually
+    from schmona import Channel, View
 
     messages = []
 

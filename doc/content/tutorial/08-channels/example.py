@@ -1,7 +1,7 @@
 from lona_picocss.html import InlineButton, TextArea, HTML, Pre, H1
 from lona_picocss import install_picocss
 
-from lona import View, App
+from schmona import View, App
 
 app = App(__file__)
 

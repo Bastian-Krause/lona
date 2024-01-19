@@ -1,4 +1,4 @@
-from lona import NotFoundError, View
+from schmona import NotFoundError, View
 
 
 def setup_app(app):

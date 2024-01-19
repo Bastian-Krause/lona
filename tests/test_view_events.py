@@ -1,5 +1,5 @@
-from lona.pytest import eventually
-from lona import View
+from schmona.pytest import eventually
+from schmona import View
 
 
 def setup_app(app):

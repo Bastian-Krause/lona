@@ -1,4 +1,4 @@
-from lona import View
+from schmona import View
 
 
 def setup_app(app):

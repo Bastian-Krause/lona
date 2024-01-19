@@ -1,6 +1,6 @@
 from pprint import pformat
 
-from lona.html import (
+from schmona.html import (
     NumberInput,
     TextInput,
     TextArea,
@@ -12,7 +12,7 @@ from lona.html import (
     Div,
     H2,
 )
-from lona.view import View
+from schmona.view import View
 
 
 class DataBindingView(View):

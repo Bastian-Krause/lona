@@ -3,7 +3,7 @@ async def test_view_sleep(lona_project_context):
 
     from playwright.async_api import async_playwright
 
-    from lona.pytest import eventually
+    from schmona.pytest import eventually
 
     TEST_PROJECT_PATH = os.path.join(__file__, '../../test_project')
 

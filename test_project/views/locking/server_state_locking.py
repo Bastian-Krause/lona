@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from lona.html import Strong, Button, Span, Div, H2, Br
-from lona.view import View
+from schmona.html import Strong, Button, Span, Div, H2, Br
+from schmona.view import View
 
 
 class LockingView(View):

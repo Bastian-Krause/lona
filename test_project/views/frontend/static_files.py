@@ -1,6 +1,6 @@
-from lona.static_files import StyleSheet
-from lona.html import HTML, H2, P
-from lona.view import View
+from schmona.static_files import StyleSheet
+from schmona.html import HTML, H2, P
+from schmona.view import View
 
 
 class BlueP(P):

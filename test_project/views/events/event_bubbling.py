@@ -1,5 +1,5 @@
-from lona.html import Select, Button, HTML, Pre, Div, H2, P
-from lona.view import View
+from schmona.html import Select, Button, HTML, Pre, Div, H2, P
+from schmona.view import View
 
 
 class BubblingNode(Div):

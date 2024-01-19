@@ -1,7 +1,7 @@
 from pprint import pformat
 
-from lona.html import TextInput, CheckBox, Pre, Div, H2
-from lona.view import View
+from schmona.html import TextInput, CheckBox, Pre, Div, H2
+from schmona.view import View
 
 
 class ChangeEventsView(View):

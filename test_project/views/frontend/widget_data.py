@@ -1,7 +1,7 @@
-from lona.html import Strong, Select, HTML, Div, H2, Br
-from lona.static_files import Script
-from lona._json import dumps
-from lona.view import View
+from schmona.html import Strong, Select, HTML, Div, H2, Br
+from schmona.static_files import Script
+from schmona._json import dumps
+from schmona.view import View
 
 
 class TestWidget(Div):

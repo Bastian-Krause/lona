@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from lona.html import HTML, Div, H1, A
-from lona import View, App
+from schmona.html import HTML, Div, H1, A
+from schmona import View, App
 
 app = App(__file__)
 

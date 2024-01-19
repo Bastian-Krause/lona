@@ -1,4 +1,4 @@
-from lona.html import (
+from schmona.html import (
     TextInput,
     TextArea,
     CheckBox,
@@ -11,7 +11,7 @@ from lona.html import (
     H2,
     Br,
 )
-from lona import View
+from schmona import View
 
 
 class InputEventCallbackView(View):

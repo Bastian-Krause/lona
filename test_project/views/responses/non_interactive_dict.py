@@ -1,7 +1,7 @@
 import os
 
-from lona.html import HTML, Ul, Li, H2, P, A
-from lona.view import View
+from schmona.html import HTML, Ul, Li, H2, P, A
+from schmona.view import View
 
 
 class NonInteractiveView(View):

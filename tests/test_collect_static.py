@@ -43,10 +43,10 @@ def _generate_command_line_args(
 
 
 def _check_javascript_client_src_files(destination: str) -> None:
-    import lona
+    import schmona
 
     CLIENT_ROOT = os.path.join(
-        os.path.dirname(lona.__file__),
+        os.path.dirname(schmona.__file__),
         'client/_lona/client/',
     )
 
@@ -104,7 +104,7 @@ def _check_test_project_static_files(destination: str):
 
 # tests #######################################################################
 def test_basic_collect_static():
-    from lona.command_line.collect_static import collect_static
+    from schmona.command_line.collect_static import collect_static
 
     with TemporaryDirectory() as tmp_dir:
         args = _generate_command_line_args(
@@ -118,7 +118,7 @@ def test_basic_collect_static():
 
 
 def test_non_empty_destinations():
-    from lona.command_line.collect_static import collect_static
+    from schmona.command_line.collect_static import collect_static
 
     with TemporaryDirectory() as tmp_dir:
 
@@ -170,7 +170,7 @@ def test_overlapping_directories():
             /directory/file2.txt          <- should be present in the output
     """
 
-    from lona.command_line.collect_static import collect_static
+    from schmona.command_line.collect_static import collect_static
 
     static_dir1 = TemporaryDirectory()
     static_dir2 = TemporaryDirectory()

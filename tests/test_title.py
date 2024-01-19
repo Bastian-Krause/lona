@@ -1,7 +1,7 @@
 def setup_app(app):
     from datetime import datetime
 
-    from lona import View
+    from schmona import View
 
     @app.route('/')
     class HoweView(View):

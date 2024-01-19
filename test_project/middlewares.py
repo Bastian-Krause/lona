@@ -1,6 +1,6 @@
 import logging
 
-from lona.errors import ForbiddenError
+from schmona.errors import ForbiddenError
 
 logger = logging.getLogger('test_project')
 
